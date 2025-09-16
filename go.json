@@ -1,0 +1,19 @@
+{
+	"starter": {
+	"prefix": "main",
+	"body": [
+		"package main",
+		"",
+	"import (",
+	"\t\"fmt\"",
+				")",
+				"",
+	"func main() {",
+	"\tfmt.Println(\"$1\")",
+	"}",
+	"",
+	],
+	 	"description": "Main boilerplate",
+		"isFileTemplate": true
+	 }
+}
