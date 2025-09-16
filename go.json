@@ -15,5 +15,16 @@
 	],
 	 	"description": "Main boilerplate",
 		"isFileTemplate": true
+	 },
+
+     "starter": {
+	"prefix": "function",
+	"body": [
+	"func $1($2) $3 {",
+	"$0",
+	"}",
+	"",
+	],
+	 	"description": "Go function snippet",
 	 }
 }
