@@ -26,5 +26,21 @@
 	"",
 	],
 	 	"description": "Go function snippet",
+	 },
+
+	 "Test": {
+	"prefix": "test",
+	"body": [
+	"func Test${1: Name}(t *testing.T)  {",
+	"\tgot := ${2: got}",
+	"\twant := ${3: want}",
+	"\tif got != want {",
+	"\t\tt.Errorf(\"got %$4 want %$5\", got, want)",
+	"\t}",
+	"}",
+	"",
+	],
+	 	"description": "Go test function",
 	 }
+	 
 }
