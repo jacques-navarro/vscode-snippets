@@ -1,5 +1,5 @@
 {
-	"starter": {
+	"Main": {
 	"prefix": "main",
 	"body": [
 		"package main",
@@ -17,7 +17,7 @@
 		"isFileTemplate": true
 	 },
 
-     "starter": {
+     "Function": {
 	"prefix": "function",
 	"body": [
 	"func $1($2) $3 {",
