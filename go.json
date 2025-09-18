@@ -41,6 +41,17 @@
 	"",
 	],
 	 	"description": "Go test function",
+	 },
+
+	 "For loop": {
+	"prefix": "for",
+	"body": [
+	"for ${1: i} := ${2:0}; i < ${3: 5}; ${4: i++} {",
+	"\t${5:fmt.Println(i)}",
+	"}",
+	"",
+	],
+	 	"description": "For loop",
 	 }
 	 
 }
